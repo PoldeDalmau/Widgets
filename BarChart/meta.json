@@ -1,0 +1,12 @@
+{
+	"name": "BarChart",
+	"options": 
+	{
+		"Color": 
+		{
+		"name": "Color",
+		"type": "string"
+		}
+	} 
+}
+  
