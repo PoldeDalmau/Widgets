@@ -1,0 +1,22 @@
+.container{
+    height: 20px;
+    background-color: #CCC;
+    position: relative;
+    border-radius: 7px;
+    width: 200px;
+}
+
+.container .progress-bar{
+    position: absolute;
+    height: 100%;
+    /* background-color: #ff0000; */
+    border-radius: 7px;
+}
+
+.container .progress-value {
+    color: black; /* Text color for the value */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
