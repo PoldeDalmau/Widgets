@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Shared scripts & CSS -->
+        <script src="../mqtt.min.js"></script>
+        <script src="../plc_data_block.js"></script>
+        <script src="../base.js"></script>
+        <link rel="stylesheet" href="../base.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Butterfly diagram with coordinate</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <img id="image" src="safeWorkingLoadChart.png">
+            <div id="crossWrap"></div>
+            <div id="cross"></div>
+            <div id="barContainer">
+                <div id="bar"></div>
+                <div class="marks" id="marks"></div>
+                <div id="triangle"></div>
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>

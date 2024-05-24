@@ -1,0 +1,11 @@
+{
+    "name": "ButterflyDemo",
+    "options": 
+	{
+        "Data": 
+		{
+		"name": "Data selector",
+		"type": "string"
+		}
+    }
+}
